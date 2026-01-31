@@ -1,2 +1,8 @@
 black    #Script/Tool for formatting code test
 flake8   #Scrip/Tool for Lint test
+bandit   #Script/Tool for static analysis  
+
+
+
+
+

@@ -21,3 +21,6 @@ jobs:
 
       - name: Run Lint test 
         run: flake8 . 
+
+      - name: 
+        run: bandit -r .
