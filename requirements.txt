@@ -1,1 +1,2 @@
-black #formatting the code
+black    #Script/Tool for formatting code test
+flake8   #Scrip/Tool for Lint test
