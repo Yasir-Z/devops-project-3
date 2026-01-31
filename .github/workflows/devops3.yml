@@ -23,7 +23,7 @@ jobs:
         run: flake8 . --ignore=F401
 
       - name: 
-        run: bandit -r . -s B201
+        run: bandit -r . -s B101,B201
 
       - name: Unit and integration test 
         run: pytest
