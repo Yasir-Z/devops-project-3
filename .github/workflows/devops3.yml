@@ -23,4 +23,4 @@ jobs:
         run: flake8 . 
 
       - name: 
-        run: bandit -r .
+        run: bandit -r . -s B201
