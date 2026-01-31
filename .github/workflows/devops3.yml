@@ -24,3 +24,6 @@ jobs:
 
       - name: 
         run: bandit -r . -s B201
+
+      - name: Unit and integration test 
+        run: pytest
