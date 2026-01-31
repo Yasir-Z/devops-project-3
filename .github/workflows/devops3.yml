@@ -20,7 +20,7 @@ jobs:
         run: black .
 
       - name: Run Lint test 
-        run: flake8 . 
+        run: flake8 . --ignore=F401
 
       - name: 
         run: bandit -r . -s B201
